@@ -73,7 +73,8 @@ body {
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 6.5rem;
+    width: 6.5rem;
 }
 
 .instagram-login {
@@ -81,11 +82,13 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+    font-weight: 550;
 }
 
 .not-account {
@@ -94,6 +97,7 @@ body {
 
 .link-blue {
     color: #0095f6;
+    font-weight: 550;
 }
 
 .get-the-app {
@@ -108,7 +112,7 @@ body {
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
 }
@@ -117,6 +121,7 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    margin-right: 10px;
 }
 
 .app-download:nth-child(1) {
